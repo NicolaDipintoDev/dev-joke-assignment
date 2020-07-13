@@ -2,7 +2,7 @@ import React from 'react';
 import { ExclamationCircleOutlined } from '@ant-design/icons';
 import './messages.css';
 
-const Ban = ({ text, author }) => {
+const Ban = () => {
 
     return <div className='ban'>
         <h1 className='banMessage'>
