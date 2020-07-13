@@ -3,7 +3,7 @@ import './messages.css';
 
 const Message = ({text, author}) => {
     return <div className='message' >
-        <h5 className='messageTExt'>
+        <h5 className='messageText'>
             {text}
         </h5>
         <span className='messageAuthor'>
