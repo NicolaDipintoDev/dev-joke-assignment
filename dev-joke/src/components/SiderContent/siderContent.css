@@ -2,6 +2,12 @@
     background-color: white;
     border-right: 0;
     margin-bottom: 0;
-    padding-left: 15px,;
+    padding-left: 15px;
     text-align: left;
+}
+
+.siderTitleIcon{
+    margin-top: 20px;
+    text-align: left;
+    font-size: 20px;
 }
