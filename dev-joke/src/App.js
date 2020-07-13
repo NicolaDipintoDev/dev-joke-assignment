@@ -22,7 +22,7 @@ function App() {
   }
 
   const getSingleMessages = joke => {
-    return [{ text: 'volete sentire una bellissima barzelletta?', author: 'Mario', delay: 3000 },
+    return [{ text: 'would you like to hear a joke?', author: 'Mario', delay: 3000 },
     { text: 'Vai spara', author: 'Luigi', delay: 6000 },
     { text: joke, author: 'Mario', delay: 9000, last:true },
     { removed:true, delay: 12000 },];
