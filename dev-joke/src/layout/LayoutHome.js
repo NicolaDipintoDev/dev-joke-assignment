@@ -7,31 +7,31 @@ const { Header, Content, Sider, Footer } = Layout;
 
 const LayoutHome = () => {
    return <Layout className='layout'>
-   <Header className="header">
-     Header
-   </Header>
+      <Header className="header">
+         <HeaderContent />
+      </Header>
 
-   <Layout>
-     <Sider width={200} className="site-layout-background">
-       Sider
+      <Layout>
+         <Sider width={200} className="site-layout-background">
+            Sider
      </Sider>
-     <Layout className='contentWrapper'>
-       <Breadcrumb className='breadcrumb'>
-         <Breadcrumb.Item >
-         Breadcrumb item
+         <Layout className='contentWrapper'>
+            <Breadcrumb className='breadcrumb'>
+               <Breadcrumb.Item >
+                  Breadcrumb item
          </Breadcrumb.Item>
-       </Breadcrumb>
-       <Content
-         className="site-layout-background content"
-       >
-        Content
+            </Breadcrumb>
+            <Content
+               className="site-layout-background content"
+            >
+               Content
        </Content>
-       <Footer className='footer'>
-         footer
+            <Footer className='footer'>
+               footer
        </Footer>
-     </Layout>
+         </Layout>
+      </Layout>
    </Layout>
- </Layout>
 }
 
 export default LayoutHome;
