@@ -12,7 +12,4 @@ export const members = [
     'Link',
     'Donkey',
     'Fox',
-    'Gommiluigi',
-    'Capitan Falcon',
-    'Kirby',
 ]
