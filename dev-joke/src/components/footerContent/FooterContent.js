@@ -5,6 +5,7 @@ import SendButton from './SendButton';
 const FooterContent = () => {
     return <div className="footerContent">
         <WritingBox />
+        <SendButton />
     </div>
 }
 
