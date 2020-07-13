@@ -36,3 +36,8 @@
      width: 80%;
      margin-top: 15px;
 }
+
+.banMessage {
+    color: white;
+    padding-top: 10px;
+}
