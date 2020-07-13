@@ -5,7 +5,7 @@ import './footerContent.css';
 
 const SendButton = ({sendMessage, isWriting}) => {
     return <span className="sendButton">
-        <Popover content='Send message' trigger="hover">
+        <Popover content={isWriting !== '' ? 'Wait, another member is writing' :'Send message'} trigger="hover">
             <Button
                 ghost
                 type="text"
