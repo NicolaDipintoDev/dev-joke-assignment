@@ -12,6 +12,7 @@ const SendButton = () => {
                 icon={<SendOutlined className='sendIcon' />}
                 disabled={false}
                 onClick={() => console.log('sendButton clicked')}
+                className='button'
             />
         </Popover>
     </span>
