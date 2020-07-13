@@ -1,7 +1,7 @@
 import React from 'react';
 
 const BreadcrumbContent = () => {
-    return <div className="breadcrumbContent">
+    return <div>
         <div style={{ textAlign: "left", backGroundColor: "white", marginTop: '10px' }}>
             <h3>DevTeam </h3>
         </div>
