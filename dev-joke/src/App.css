@@ -7,6 +7,10 @@
   overflow: 'hidden';
 }
 
+.headerContent {
+  text-align: "left";
+}
+
 .contentWrapper {
   padding: '0';
 }
@@ -26,3 +30,4 @@
   text-align: 'center';
   background-color: "#001529";
 }
+
