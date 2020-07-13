@@ -12,7 +12,7 @@ const Members = () => {
     >
         {members.map((member, i) => {
             return  <Menu.Item key={i + 1}>{member}</Menu.Item>
-        })};
+        })}
 
 
     </Menu>
