@@ -1,5 +1,6 @@
 .message {
-    margin-top: 15px; 
+    margin-bottom: 15px; 
+    margin-top: 15px;  
     overflow: auto; 
     border-radius: 20px;
     text-align: left;
@@ -34,7 +35,7 @@
     display: table;
     margin: auto;
     width: 80%;
-    margin-top: 15px;
+    margin-top: 25px;
 }
 
 .banMessage {
