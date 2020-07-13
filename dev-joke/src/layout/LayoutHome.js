@@ -11,7 +11,7 @@ const LayoutHome = () => {
    </Header>
 
    <Layout>
-     <Sider width={200} className="site-layout-background sider" >
+     <Sider width={200} className="site-layout-background">
        Sider
      </Sider>
      <Layout className='contentWrapper'>

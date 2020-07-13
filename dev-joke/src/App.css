@@ -6,3 +6,7 @@
   height: '100vh';
   overflow: 'hidden';
 }
+
+.contentWrapper {
+  padding: '0';
+}
