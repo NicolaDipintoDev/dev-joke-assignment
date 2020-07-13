@@ -9,7 +9,7 @@ import FooterContent from '../components/footerContent/FooterContent';
 
 const { Header, Content, Sider, Footer } = Layout;
 
-const LayoutHome = () => {
+const LayoutHome = ({isWriting}) => {
    return <Layout className='layout'>
       <Header className="header">
          <HeaderContent />
@@ -22,7 +22,7 @@ const LayoutHome = () => {
          <Layout className='contentWrapper'>
             <Breadcrumb className='breadcrumb'>
                <Breadcrumb.Item >
-                  <BreadcrumbContent />
+                  <BreadcrumbContent isWriting={isWriting}/>
          </Breadcrumb.Item>
             </Breadcrumb>
             <Content

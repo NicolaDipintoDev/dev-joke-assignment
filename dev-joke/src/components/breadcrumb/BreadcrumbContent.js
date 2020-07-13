@@ -1,13 +1,13 @@
 import React from 'react';
 import './breadcrumbContent.css';
 
-const BreadcrumbContent = () => {
+const BreadcrumbContent = ({ isWriting }) => {
     return <div>
         <div className="groupName">
             <h3>DevTeam </h3>
         </div>
         <h5 style={{ marginLeft: '5px' }}>
-            Mario is writing...
+        {isWriting !== '' ? isWriting + ' is writing...' : <span style={{ color: "white" }}>as</span>}
         </h5>
     </div>
 }
