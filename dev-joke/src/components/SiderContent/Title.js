@@ -1,5 +1,6 @@
 import React from 'react';
 import { UsergroupDeleteOutlined } from '@ant-design/icons';
+import './siderContent.css'
 
 const Title = () => {
     return <div className='siderTitle'>

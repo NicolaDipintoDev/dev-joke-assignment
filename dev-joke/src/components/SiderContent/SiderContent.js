@@ -3,7 +3,7 @@ import Title from './Title';
 
 const SiderContent = () => {
     return <div className="siderContent">
-        siderContent
+        <Title />
     </div>
 }
 
