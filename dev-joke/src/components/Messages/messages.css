@@ -8,6 +8,11 @@
     width: 45%;
 }
 
+.right {
+    float: right;
+    margin-right: 8%;
+}
+
 .messageText {
     width: 90%;
     text-align: left;
