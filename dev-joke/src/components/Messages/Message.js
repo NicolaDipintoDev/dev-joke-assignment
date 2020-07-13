@@ -1,7 +1,14 @@
 import React from 'react';
 
-const Message = () => {
-    return <div> Message </div>
+const Message = ({text, author}) => {
+    return <div className='message' >
+        <h5 className='messageTExt'>
+            {text}
+        </h5>
+        <span className='messageAuthor'>
+            {author}
+        </span>
+    </div >
 
 }
 
