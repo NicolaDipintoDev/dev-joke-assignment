@@ -1,4 +1,5 @@
 import React from 'react';
+import './messages.css';
 
 const Message = ({text, author}) => {
     return <div className='message' >
