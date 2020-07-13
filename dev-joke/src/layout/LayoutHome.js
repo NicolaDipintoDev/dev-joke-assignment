@@ -31,7 +31,7 @@ const LayoutHome = () => {
                <Messages />
        </Content>
             <Footer className='footer'>
-               footer
+               <FooterContent />
        </Footer>
          </Layout>
       </Layout>
