@@ -20,7 +20,7 @@ const LayoutHome = () => {
          <Layout className='contentWrapper'>
             <Breadcrumb className='breadcrumb'>
                <Breadcrumb.Item >
-                  Breadcrumb item
+                  <BreadcrumbContent />
          </Breadcrumb.Item>
             </Breadcrumb>
             <Content
