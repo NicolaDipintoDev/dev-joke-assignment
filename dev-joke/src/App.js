@@ -27,15 +27,17 @@ function App() {
     if (setup.substr(setup.length - 1) === '?') {
       result.push({ text: 'I don\'t know', author: 'Luigi', delay: 6000 })
     }
-    result.concat([
+    return result.concat([
       { text: delivery, author: 'Mario', delay: 9000 },
       { text: 'removed', delay: 10000 },]);
+    
   }
 
   useEffect(() => {
     axios.get(`https://sv443.net/jokeapi/v2/joke/Programming`)
-      .then(res => {
-        console.log(res);
+      .then(response => {
+        console.log(response);
+        setMessages(getMessages(response.data));
       })
   }, []);
 
