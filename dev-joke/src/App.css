@@ -16,3 +16,8 @@
   background-color: "white";
   margin: '0';
 }
+
+.content {
+  padding: 24;
+  margin: 0;
+}
