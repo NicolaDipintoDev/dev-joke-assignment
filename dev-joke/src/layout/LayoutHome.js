@@ -4,6 +4,7 @@ import './layout.css';
 import HeaderContent from '../components/headerContent/HeaderContent';
 import SiderContent from '../components/SiderContent/SiderContent';
 import BreadcrumbContent from '../components/breadcrumb/BreadcrumbContent';
+import Messages from '../components/Messages/Messages';
 
 const { Header, Content, Sider, Footer } = Layout;
 
