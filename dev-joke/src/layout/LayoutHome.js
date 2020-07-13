@@ -35,6 +35,7 @@ const LayoutHome = ({ isWriting, setIsWriting, sendMessage, myMessage, setMyMess
                   myMessage={myMessage}
                   sendMessage={sendMessage}
                   setMyMessage={setMyMessage}
+                  isWriting={isWriting}
                />
             </Footer>
          </Layout>
