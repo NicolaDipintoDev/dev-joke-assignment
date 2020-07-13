@@ -9,10 +9,14 @@ const Messages = ({ setIsWriting, messages, isWriting }) => {
 
             return <Delay key={'Delay' + index} wait={message.delay}>
 
-                {isWriting !== '' ? 
-                <Message index={index} last={message.last || false} setIsWriting={setIsWriting} text='messaggio' author='Mario' />
-                : <Ban />}
-               
+                {(!message.removed && true) ?
+                    <Message
+                        last={message.last || false}
+                        setIsWriting={setIsWriting}
+                        text={message.text}
+                        author={message.author} />
+                    : <Ban />}
+
             </ Delay>
         })}
     </div>

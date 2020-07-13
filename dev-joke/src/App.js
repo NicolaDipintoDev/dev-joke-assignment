@@ -24,7 +24,7 @@ function App() {
     return [{ text: 'volete sentire una bellissima barzelletta?', author: 'Mario', delay: 3000 },
     { text: 'Vai spara', author: 'Luigi', delay: 6000 },
     { text: joke, author: 'Mario', delay: 9000, last:true },
-    { text: 'removed', author:'removed', delay: 9300 },];
+    { removed:true, delay: 11000 },];
   }
 
   const getTwoPartMessages = (setup, delivery) => {
@@ -34,7 +34,7 @@ function App() {
     }
     return result.concat([
       { text: delivery, author: 'Mario', delay: 9000, last:true },
-      { text: 'removed', author:'removed', delay: 10000 },]);
+      { removed:true, delay: 11000 },]);
 
   }
 
