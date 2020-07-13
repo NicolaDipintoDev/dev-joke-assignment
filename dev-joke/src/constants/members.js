@@ -7,9 +7,4 @@ export const members = [
     'Toad',
     'Daysy',
     'Bowser',
-    'Waluigi',
-    'Zelda',
-    'Link',
-    'Donkey',
-    'Fox',
 ]
