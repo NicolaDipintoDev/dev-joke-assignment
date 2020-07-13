@@ -10,3 +10,9 @@
 .contentWrapper {
   padding: '0';
 }
+
+.breadcrumb {
+  text-align: "left";
+  background-color: "white";
+  margin: '0';
+}
