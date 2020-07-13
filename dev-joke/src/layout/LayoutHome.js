@@ -9,7 +9,15 @@ import FooterContent from '../components/footerContent/FooterContent';
 
 const { Header, Content, Sider, Footer } = Layout;
 
-const LayoutHome = ({ isWriting, setIsWriting, sendMessage, myMessage, setMyMessage, messages }) => {
+const LayoutHome = ({
+   isWriting,
+   setIsWriting,
+   sendMessage,
+   myMessage,
+   setMyMessage,
+   messages,
+   banning,
+   setBanning }) => {
    return <Layout className='layout'>
       <Header className="header">
          <HeaderContent />
@@ -28,7 +36,12 @@ const LayoutHome = ({ isWriting, setIsWriting, sendMessage, myMessage, setMyMess
             <Content
                className="site-layout-background content"
             >
-               <Messages setIsWriting={setIsWriting} messages={messages} />
+               <Messages
+                  setIsWriting={setIsWriting}
+                  messages={messages}
+                  banning={banning}
+                  setBanning={setBanning}
+               />
             </Content>
             <Footer style={{ textAlign: 'center', backgroundColor: "#001529" }}>
                <FooterContent

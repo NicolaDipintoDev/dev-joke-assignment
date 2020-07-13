@@ -3,7 +3,7 @@ import Message from './Message';
 import Ban from './Ban'
 import Delay from '../Delay';
 
-const Messages = ({ setIsWriting, messages, isWriting }) => {
+const Messages = ({ setIsWriting, messages, banning, setBanning }) => {
     return <div>
         {messages.map((message, index) => {
 
@@ -15,7 +15,7 @@ const Messages = ({ setIsWriting, messages, isWriting }) => {
                         setIsWriting={setIsWriting}
                         text={message.text}
                         author={message.author} />
-                    : <Ban />}
+                    : <Ban banning={banning} setBanning={setBanning} />}
 
             </ Delay>
         })}
