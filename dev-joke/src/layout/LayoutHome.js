@@ -1,6 +1,6 @@
 import React from 'react';
 import { Layout, Breadcrumb } from 'antd';
-import '../App.css';
+import './layout.css';
 import HeaderContent from '../components/headerContent/HeaderContent';
 
 const { Header, Content, Sider, Footer } = Layout;
