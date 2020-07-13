@@ -1,8 +1,12 @@
-import React from 'react';
+import React, {useEffect } from 'react';
 import { ExclamationCircleOutlined } from '@ant-design/icons';
 import './messages.css';
 
-const Ban = () => {
+const Ban = ({setBanning}) => {
+
+    useEffect(() => {
+       setBanning(false);
+    }, [])
 
     return <div className='ban'>
         <h1 className='banMessage'>

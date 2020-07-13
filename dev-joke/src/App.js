@@ -10,7 +10,7 @@ function App() {
   const [isWriting, setIsWriting] = useState('Mario');
   const [myMessage, setMyMessage] = useState('');
   const [myMessages, setMyMessages] = useState([]);
-  const [banning, setBanning] = useState(false);
+  const [banning, setBanning] = useState(true);
 
   const getMessages = joke => {
     switch (joke.type) {
