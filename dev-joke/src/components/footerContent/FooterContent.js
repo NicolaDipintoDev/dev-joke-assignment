@@ -3,7 +3,7 @@ import WritingBox from './WritingBox';
 
 const FooterContent = () => {
     return <div className="footerContent">
-        Footer content
+        <WritingBox />
     </div>
 }
 
