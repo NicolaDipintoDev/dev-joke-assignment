@@ -1,5 +1,6 @@
 import React from 'react';
 import { Input } from 'antd';
+import './footerContent.css';
 
 const WritingBox = () => {
     return <Input

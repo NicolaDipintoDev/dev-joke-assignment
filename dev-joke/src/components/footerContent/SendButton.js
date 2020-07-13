@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button, Popover } from 'antd';
 import { SendOutlined } from '@ant-design/icons';
+import './footerContent.css';
 
 const SendButton = () => {
     return <span className="sendButton">
