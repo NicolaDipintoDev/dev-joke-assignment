@@ -1,6 +1,7 @@
 import React from 'react';
 import { Menu } from 'antd';
 import './siderContent.css'
+import { members } from '../../constants/members';
 
 const Members = () => {
     return <Menu
