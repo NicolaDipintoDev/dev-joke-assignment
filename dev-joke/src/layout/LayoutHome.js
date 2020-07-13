@@ -5,6 +5,7 @@ import HeaderContent from '../components/headerContent/HeaderContent';
 import SiderContent from '../components/SiderContent/SiderContent';
 import BreadcrumbContent from '../components/breadcrumb/BreadcrumbContent';
 import Messages from '../components/Messages/Messages';
+import FooterContent from '../components/footerContent/FooterContent';
 
 const { Header, Content, Sider, Footer } = Layout;
 
