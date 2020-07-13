@@ -2,3 +2,8 @@
     text-align: center;
     background-color: #001529;
 }
+
+.writingBox {
+    border-radius: 20px;
+     width: 80%;
+}
