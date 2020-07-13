@@ -59,6 +59,7 @@ function App() {
         myMessage={myMessage}
         sendMessage={sendMessage}
         setMyMessage={setMyMessage}
+        messages={messages}
       />
     </div>
   );
