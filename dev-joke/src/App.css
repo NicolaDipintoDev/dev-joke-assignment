@@ -7,23 +7,6 @@
   overflow: 'hidden';
 }
 
-.headerContent {
-  text-align: "left";
-}
-
-.headerIcon{
-  color: "white";
-  text-align: "left";
-  margin-right: "5px";
-  font-size: '20px';
-  margin-Top: "10px";
-}
-
-.headerSpan {
-  color: "white";
-  text-align: "left"; 
-}
-
 .contentWrapper {
   padding: '0';
 }

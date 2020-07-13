@@ -1,11 +1,11 @@
 import React from 'react';
 import { WechatOutlined } from '@ant-design/icons';
-import '../App.css';
+import './headerContent.css';
 
 const HeaderContent = () => {
-    return <div className='headerContent'>
-        <WechatOutlined className='headerIcon' />
-        <span className='headerSpan'>
+    return <div className="headerContent">
+        <WechatOutlined className="headerIcon" />
+        <span className="headerSpan">
             ChatAPP
             </span>
     </div>
