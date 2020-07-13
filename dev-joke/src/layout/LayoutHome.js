@@ -2,6 +2,7 @@ import React from 'react';
 import { Layout, Breadcrumb } from 'antd';
 import './layout.css';
 import HeaderContent from '../components/headerContent/HeaderContent';
+//import SiderContent from '../components/siderContent/SiderContent';
 
 const { Header, Content, Sider, Footer } = Layout;
 
