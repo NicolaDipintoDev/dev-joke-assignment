@@ -2,3 +2,7 @@
   text-align: center;
 }
 
+.layout {
+  height: '100vh';
+  overflow: 'hidden';
+}
