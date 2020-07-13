@@ -30,7 +30,7 @@ const LayoutHome = () => {
             >
                <Messages />
        </Content>
-            <Footer className='footer'>
+            <Footer style={{ textAlign: 'center', backgroundColor: "#001529" }}>
                <FooterContent />
        </Footer>
          </Layout>

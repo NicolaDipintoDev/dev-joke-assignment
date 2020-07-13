@@ -4,11 +4,11 @@ import SendButton from './SendButton';
 import './footerContent.css';
 
 const FooterContent = () => {
-    return <div className="footerContent">
-        <div>
-            <WritingBox />
-            <SendButton />
-        </div>
+    return <div className="footerContent" style={{ backgroundColor: "001529", margin:"0", padding:0 }}>>
+
+        <WritingBox />
+        <SendButton />
+
     </div>
 }
 
