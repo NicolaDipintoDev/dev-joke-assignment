@@ -33,7 +33,7 @@ function App() {
     return result.concat([
       { text: delivery, author: 'Mario', delay: 9000 },
       { text: 'removed', delay: 10000 },]);
-    
+
   }
 
   useEffect(() => {
@@ -46,7 +46,10 @@ function App() {
 
   return (
     <div className="App">
-      <Layout isWriting={isWriting}/>
+      <Layout
+        isWriting={isWriting}
+        setIsWriting={setIsWriting}
+      />
     </div>
   );
 }
