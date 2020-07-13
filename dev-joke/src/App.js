@@ -1,8 +1,10 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import './App.css';
 
 function App() {
+
+  const [messages, setMessages] = useState([]);
 
   const getMessages = joke => {
     switch (joke.type) {
