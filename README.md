@@ -10,8 +10,8 @@ and be creative
 
 # running
 
-1)clone the repo
-2)open it on terminal
-3)cd dev-joke
-4)yarn install
-5)yarn start
+1)clone the repo  
+2)open it on terminal  
+3)cd dev-joke  
+4)yarn install  
+5)yarn start  
