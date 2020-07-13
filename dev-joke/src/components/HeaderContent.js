@@ -1,5 +1,6 @@
 import React from 'react';
 import { WechatOutlined } from '@ant-design/icons';
+import '../App.css';
 
 const HeaderContent = () => {
     return <div className='headerContent'>
