@@ -39,7 +39,6 @@ const LayoutHome = ({
                <Messages
                   setIsWriting={setIsWriting}
                   messages={messages}
-                  banning={banning}
                   setBanning={setBanning}
                />
             </Content>
@@ -49,6 +48,7 @@ const LayoutHome = ({
                   sendMessage={sendMessage}
                   setMyMessage={setMyMessage}
                   isWriting={isWriting}
+                  banning={banning}
                />
             </Footer>
          </Layout>
