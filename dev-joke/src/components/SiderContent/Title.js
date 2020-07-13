@@ -12,4 +12,4 @@ const Title = () => {
     
 }
 
-export default SiderContent;
+export default Title;
