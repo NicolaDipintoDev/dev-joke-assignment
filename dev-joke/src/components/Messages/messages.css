@@ -26,3 +26,13 @@
     padding: 0;
     float: right;
 }
+
+.ban {
+    border-radius: 20px;
+    text-align: center;
+    background-color: #001529;
+    display: table;
+    margin: auto;
+     width: 80%;
+     margin-top: 15px;
+}
