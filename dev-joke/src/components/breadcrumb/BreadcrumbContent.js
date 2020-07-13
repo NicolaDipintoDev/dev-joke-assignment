@@ -1,8 +1,9 @@
 import React from 'react';
+import './breadcrumbContent.css';
 
 const BreadcrumbContent = () => {
     return <div>
-        <div style={{ textAlign: "left", backGroundColor: "white", marginTop: '10px' }}>
+        <div className="groupName">
             <h3>DevTeam </h3>
         </div>
         <h5 style={{ marginLeft: '5px' }}>
