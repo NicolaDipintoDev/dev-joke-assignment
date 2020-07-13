@@ -27,7 +27,7 @@ const LayoutHome = () => {
             <Content
                className="site-layout-background content"
             >
-               Content
+               <Messages />
        </Content>
             <Footer className='footer'>
                footer
