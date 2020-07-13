@@ -6,7 +6,7 @@ const Title = () => {
     return <div className='siderTitle'>
             <b><UsergroupDeleteOutlined className='siderTitleIcon' /> </b>
 
-            <span className='siderSpan'>
+            <span>
                 <b>Members: </b>
             </span>
         </div>
