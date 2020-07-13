@@ -9,7 +9,7 @@ import FooterContent from '../components/footerContent/FooterContent';
 
 const { Header, Content, Sider, Footer } = Layout;
 
-const LayoutHome = ({isWriting, setIsWriting}) => {
+const LayoutHome = ({ isWriting, setIsWriting, setMyMessage, myMessage }) => {
    return <Layout className='layout'>
       <Header className="header">
          <HeaderContent />
@@ -18,21 +18,24 @@ const LayoutHome = ({isWriting, setIsWriting}) => {
       <Layout>
          <Sider width={200} className="site-layout-background">
             <SiderContent />
-     </Sider>
+         </Sider>
          <Layout className='contentWrapper'>
             <Breadcrumb className='breadcrumb'>
                <Breadcrumb.Item >
-                  <BreadcrumbContent isWriting={isWriting}/>
-         </Breadcrumb.Item>
+                  <BreadcrumbContent isWriting={isWriting} />
+               </Breadcrumb.Item>
             </Breadcrumb>
             <Content
                className="site-layout-background content"
             >
                <Messages setIsWriting={setIsWriting} />
-       </Content>
+            </Content>
             <Footer style={{ textAlign: 'center', backgroundColor: "#001529" }}>
-               <FooterContent />
-       </Footer>
+               <FooterContent
+                  myMessage={myMessage}
+                  setMyMessage={setMyMessage}
+               />
+            </Footer>
          </Layout>
       </Layout>
    </Layout>

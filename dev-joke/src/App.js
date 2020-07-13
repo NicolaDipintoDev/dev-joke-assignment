@@ -50,6 +50,8 @@ function App() {
       <Layout
         isWriting={isWriting}
         setIsWriting={setIsWriting}
+        myMessage={myMessage}
+        setMyMessage={setMyMessage}
       />
     </div>
   );

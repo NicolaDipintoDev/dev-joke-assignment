@@ -3,11 +3,11 @@ import WritingBox from './WritingBox';
 import SendButton from './SendButton';
 import './footerContent.css';
 
-const FooterContent = () => {
+const FooterContent = ({myMessage, setMyMessage}) => {
     return <div className="footerContent" style={{ backgroundColor: "001529", margin:"0", padding:0 }}>>
 
-        <WritingBox />
-        <SendButton />
+        <WritingBox myMessage={myMessage}/>
+        <SendButton setMyMessage={setMyMessage}/>
 
     </div>
 }
