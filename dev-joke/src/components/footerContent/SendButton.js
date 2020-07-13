@@ -23,7 +23,7 @@ const SendButton = ({sendMessage, isWriting ,banning}) => {
                 ghost
                 type="text"
                 icon={<SendOutlined style={{ color: "white", fontSize: "16px" }} />}
-                disabled={isWriting !== ''}
+                disabled={isWriting !== '' || banning}
                 onClick={() => sendMessage()}
                 className='button'
             />
