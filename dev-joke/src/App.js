@@ -8,6 +8,7 @@ function App() {
 
   const [messages, setMessages] = useState([]);
   const [isWriting, setIsWriting] = useState('Mario');
+  const [myMessage, setMyMessage] = useState('');
 
   const getMessages = joke => {
     switch (joke.type) {
