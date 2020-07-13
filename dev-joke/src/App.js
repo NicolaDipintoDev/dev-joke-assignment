@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import './App.css';
 import Layout from './layout/LayoutHome';
+import 'antd/dist/antd.css';
 
 function App() {
 
