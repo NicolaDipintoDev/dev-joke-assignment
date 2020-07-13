@@ -5,4 +5,4 @@ const LayoutHome = () => {
    return <div>layout</div>
 }
 
-export default Layout;
+export default LayoutHome;
