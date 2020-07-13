@@ -47,7 +47,6 @@ function App() {
   useEffect(() => {
     axios.get(`https://sv443.net/jokeapi/v2/joke/Programming`)
       .then(response => {
-        console.log(response);
         setMessages(getMessages(response.data));
       })
   }, []);
