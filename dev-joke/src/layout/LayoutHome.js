@@ -5,6 +5,7 @@ import HeaderContent from '../components/headerContent/HeaderContent';
 import SiderContent from '../components/SiderContent/SiderContent';
 import BreadcrumbContent from '../components/breadcrumb/BreadcrumbContent';
 import Messages from '../components/Messages/Messages';
+import MyMessages from '../components/Messages/MyMessages';
 import FooterContent from '../components/footerContent/FooterContent';
 
 const { Header, Content, Sider, Footer } = Layout;
@@ -17,7 +18,8 @@ const LayoutHome = ({
    setMyMessage,
    messages,
    banning,
-   setBanning }) => {
+   setBanning,
+   myMessages }) => {
    return <Layout className='layout'>
       <Header className="header">
          <HeaderContent />
@@ -41,6 +43,12 @@ const LayoutHome = ({
                   messages={messages}
                   setBanning={setBanning}
                />
+
+               <MyMessages
+                  setIsWriting={setIsWriting}
+                  messages={myMessages}
+               />
+
             </Content>
             <Footer style={{ textAlign: 'center', backgroundColor: "#001529" }}>
                <FooterContent

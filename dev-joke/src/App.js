@@ -40,7 +40,7 @@ function App() {
   }
 
   const sendMessage = () => {
-    setMyMessages([...myMessages, { author: 'You', text: myMessage }]);
+    setMyMessages([...myMessages, { author: 'You', text: myMessage, last:true }]);
     setMyMessage('');
   }
 
@@ -63,6 +63,7 @@ function App() {
         messages={messages}
         banning={banning}
         setBanning={setBanning}
+        myMessages={myMessages}
       />
     </div>
   );

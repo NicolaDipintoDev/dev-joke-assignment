@@ -1,10 +1,9 @@
 import React from 'react';
 import Message from './Message';
 
-const MyMessages = ({ setIsWriting, myMessages, setBanning }) => {
+const MyMessages = ({ setIsWriting, messages }) => {
     return <div>
-        {myMessages.map((message, index) => {
-
+        {messages.map((message) => {
             return <Message
                 last={message.last || false}
                 setIsWriting={setIsWriting}
