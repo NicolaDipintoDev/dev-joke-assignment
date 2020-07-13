@@ -9,7 +9,7 @@ import FooterContent from '../components/footerContent/FooterContent';
 
 const { Header, Content, Sider, Footer } = Layout;
 
-const LayoutHome = ({ isWriting, setIsWriting, setMyMessage, myMessage }) => {
+const LayoutHome = ({ isWriting, setIsWriting, sendMessage, myMessage }) => {
    return <Layout className='layout'>
       <Header className="header">
          <HeaderContent />
@@ -33,7 +33,7 @@ const LayoutHome = ({ isWriting, setIsWriting, setMyMessage, myMessage }) => {
             <Footer style={{ textAlign: 'center', backgroundColor: "#001529" }}>
                <FooterContent
                   myMessage={myMessage}
-                  setMyMessage={setMyMessage}
+                  sendMessage={sendMessage}
                />
             </Footer>
          </Layout>

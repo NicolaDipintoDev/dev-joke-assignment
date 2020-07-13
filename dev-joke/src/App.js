@@ -9,6 +9,7 @@ function App() {
   const [messages, setMessages] = useState([]);
   const [isWriting, setIsWriting] = useState('Mario');
   const [myMessage, setMyMessage] = useState('');
+  const [myMessages, setMyMessages] = useState([]);
 
   const getMessages = joke => {
     switch (joke.type) {
@@ -37,6 +38,10 @@ function App() {
 
   }
 
+  const sendMessage = () => {
+    setMyMessages([...myMessages, { author: 'You', text: myMessage }]);
+  }
+
   useEffect(() => {
     axios.get(`https://sv443.net/jokeapi/v2/joke/Programming`)
       .then(response => {
@@ -51,7 +56,7 @@ function App() {
         isWriting={isWriting}
         setIsWriting={setIsWriting}
         myMessage={myMessage}
-        setMyMessage={setMyMessage}
+        sendMessage={sendMessage}
       />
     </div>
   );
