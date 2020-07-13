@@ -5,6 +5,7 @@ import Members from './Members';
 const SiderContent = () => {
     return <div className="siderContent">
         <Title />
+        <Members />
     </div>
 }
 
