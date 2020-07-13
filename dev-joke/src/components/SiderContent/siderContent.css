@@ -11,3 +11,10 @@
     text-align: left;
     font-size: 20px;
 }
+
+.menu {
+    height: 100%;
+    border-right: 0;
+    overflow: scroll;
+    padding-top: 15px;
+}

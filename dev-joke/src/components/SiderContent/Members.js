@@ -11,9 +11,7 @@ const Members = () => {
         className='menu'
     >
         {members.map((member, i) => {
-            return <>  <Menu.Item key={i + 1}>{member}</Menu.Item>
-                <Menu.Divider />
-            </>
+            return  <Menu.Item key={i + 1}>{member}</Menu.Item>
         })};
 
 
