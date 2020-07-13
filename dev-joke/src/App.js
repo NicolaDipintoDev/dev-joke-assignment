@@ -7,6 +7,7 @@ import 'antd/dist/antd.css';
 function App() {
 
   const [messages, setMessages] = useState([]);
+  const [isWriting, setIsWriting] = useState('Mario');
 
   const getMessages = joke => {
     switch (joke.type) {
