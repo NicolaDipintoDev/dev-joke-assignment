@@ -3,6 +3,7 @@ import { Layout, Breadcrumb } from 'antd';
 import './layout.css';
 import HeaderContent from '../components/headerContent/HeaderContent';
 import SiderContent from '../components/SiderContent/SiderContent';
+import BreadcrumbContent from '../components/breadcrumb/BreadcrumbContent';
 
 const { Header, Content, Sider, Footer } = Layout;
 
