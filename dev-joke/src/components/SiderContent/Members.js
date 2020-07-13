@@ -3,10 +3,18 @@ import { Menu } from 'antd';
 import './siderContent.css'
 
 const Members = () => {
-    return <div className='members'>
-            members
-        </div>
-    
+    return <Menu
+        mode="inline"
+        defaultSelectedKeys={['1']}
+        defaultOpenKeys={['sub1']}
+        className='menu'
+    >
+
+        <Menu.Item key="1">Mario</Menu.Item>
+        <Menu.Divider />
+
+    </Menu>
+
 }
 
 export default Members;
