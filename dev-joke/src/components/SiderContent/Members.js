@@ -10,9 +10,12 @@ const Members = () => {
         defaultOpenKeys={['sub1']}
         className='menu'
     >
+        {members.map((member, i) => {
+            return <>  <Menu.Item key={i + 1}>{member}</Menu.Item>
+                <Menu.Divider />
+            </>
+        })};
 
-        <Menu.Item key="1">Mario</Menu.Item>
-        <Menu.Divider />
 
     </Menu>
 
