@@ -1,10 +1,10 @@
 import React, { useEffect } from 'react';
 import './messages.css';
 
-const Message = ({ text, author, setIsWriting, index }) => {
+const Message = ({ text, author, setIsWriting, last }) => {
 
     useEffect(() => {
-        index < 2 ?
+        !last ?
             setIsWriting(author === 'Mario' ? 'Luigi' : 'Mario')
             : setIsWriting('');
     }, [])

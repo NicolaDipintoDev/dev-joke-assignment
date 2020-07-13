@@ -23,8 +23,8 @@ function App() {
   const getSingleMessages = joke => {
     return [{ text: 'volete sentire una bellissima barzelletta?', author: 'Mario', delay: 3000 },
     { text: 'Vai spara', author: 'Luigi', delay: 6000 },
-    { text: joke, author: 'Mario', delay: 9000 },
-    { text: 'removed', delay: 9300 },];
+    { text: joke, author: 'Mario', delay: 9000, last:true },
+    { text: 'removed', author:'removed', delay: 9300 },];
   }
 
   const getTwoPartMessages = (setup, delivery) => {
@@ -33,8 +33,8 @@ function App() {
       result.push({ text: 'I don\'t know', author: 'Luigi', delay: 6000 })
     }
     return result.concat([
-      { text: delivery, author: 'Mario', delay: 9000 },
-      { text: 'removed', delay: 10000 },]);
+      { text: delivery, author: 'Mario', delay: 9000, last:true },
+      { text: 'removed', author:'removed', delay: 10000 },]);
 
   }
 

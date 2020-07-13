@@ -10,7 +10,7 @@ const Messages = ({ setIsWriting, messages, isWriting }) => {
             return <Delay key={'Delay' + index} wait={message.delay}>
 
                 {isWriting !== '' ? 
-                <Message index={index} setIsWriting={setIsWriting} text='messaggio' author='Mario' />
+                <Message index={index} last={message.last || false} setIsWriting={setIsWriting} text='messaggio' author='Mario' />
                 : <Ban />}
                
             </ Delay>
