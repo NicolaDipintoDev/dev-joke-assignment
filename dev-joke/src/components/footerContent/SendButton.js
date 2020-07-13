@@ -9,7 +9,7 @@ const SendButton = () => {
             <Button
                 ghost
                 type="text"
-                icon={<SendOutlined className='sendIcon' />}
+                icon={<SendOutlined style={{ color: "white", fontSize: "16px" }} />}
                 disabled={false}
                 onClick={() => console.log('sendButton clicked')}
                 className='button'

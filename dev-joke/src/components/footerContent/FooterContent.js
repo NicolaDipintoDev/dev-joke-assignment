@@ -5,8 +5,10 @@ import './footerContent.css';
 
 const FooterContent = () => {
     return <div className="footerContent">
-        <WritingBox />
-        <SendButton />
+        <div>
+            <WritingBox />
+            <SendButton />
+        </div>
     </div>
 }
 

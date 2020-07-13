@@ -1,14 +1,16 @@
 import React from 'react';
 import { Input } from 'antd';
-import './footerContent.css';
+
 
 const WritingBox = () => {
-    return <Input
-        className='writingBox'
-        placeholder="Write a message"
-        value=''
-        onChange={event => console.log(event.target.value)}
-    />
+    return <span>
+        <Input
+            style={{ borderRadius: "20px", width: "80%" }}
+            placeholder="Write a message"
+            value=''
+            onChange={event => console.log(event.target.value)}
+        />
+    </span>
 }
 
 export default WritingBox;
