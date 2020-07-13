@@ -40,6 +40,7 @@ function App() {
 
   const sendMessage = () => {
     setMyMessages([...myMessages, { author: 'You', text: myMessage }]);
+    setMyMessage('');
   }
 
   useEffect(() => {
@@ -57,6 +58,7 @@ function App() {
         setIsWriting={setIsWriting}
         myMessage={myMessage}
         sendMessage={sendMessage}
+        setMyMessage={setMyMessage}
       />
     </div>
   );
