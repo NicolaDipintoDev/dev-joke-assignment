@@ -20,7 +20,6 @@ const SendButton = ({sendMessage, isWriting ,banning}) => {
     return <span className="sendButton">
         <Popover content={getTip} trigger="hover">
             <Button
-                ghost
                 type="text"
                 icon={<SendOutlined style={{ color: "white", fontSize: "16px" }} />}
                 disabled={isWriting !== '' || banning}
