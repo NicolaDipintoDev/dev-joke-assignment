@@ -16,6 +16,8 @@
 .menu {
     height: 100vh;
     border-right: 0;
-    overflow: scroll;
+    overflow: auto;
     padding-top: 15px;
+    max-height: 100vh;
 }
+
