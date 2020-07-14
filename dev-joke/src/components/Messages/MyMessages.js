@@ -3,8 +3,9 @@ import Message from './Message';
 
 const MyMessages = ({ setIsWriting, messages }) => {
     return <div>
-        {messages.map((message) => {
+        {messages.map((message, index) => {
             return <Message
+                key={'myMsg'+index}
                 last={message.last || false}
                 setIsWriting={setIsWriting}
                 text={message.text}
