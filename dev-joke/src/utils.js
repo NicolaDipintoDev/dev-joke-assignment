@@ -4,6 +4,8 @@ export const getMessages = joke => {
         return getSingleMessages(joke.joke);
       case 'twopart':
         return getTwoPartMessages(joke.setup, joke.delivery);
+      default:
+        return [];
     }
   };
 
